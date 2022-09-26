@@ -15,8 +15,11 @@ function App() {
         <Route path="/books">
           <BookList />
         </Route>
-        <Route path="*">
+        <Route exact path="/">
           <Redirect to="/books" />
+        </Route>
+        <Route path="*">
+          <h1>Not Found</h1>
         </Route>
       </Switch>
     </main>
