@@ -19,3 +19,13 @@
 .book h3 {
   margin-top: 0;
 }
+
+.book a {
+  color: var(--hacker-green);
+}
+
+hr {
+  border-width: 1px;
+  border-color: var(--hacker-green);
+  margin: 1.5rem 0;
+}
