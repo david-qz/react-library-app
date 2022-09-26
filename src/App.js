@@ -1,7 +1,8 @@
 import BookList from './components/book/BookList';
 import BookDetail from './components/book/BookDetail';
 import './App.css';
-import { Redirect, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
+import Home from './components/Home/Home';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
           <BookList />
         </Route>
         <Route exact path="/">
-          <Redirect to="/books" />
+          <Home />
         </Route>
         <Route path="*">
           <h1>Not Found</h1>
