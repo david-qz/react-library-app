@@ -4,6 +4,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: rgb(0, 255, 21);
+  --hacker-green: rgb(0, 255, 21);
   background-color: black;
   padding: 1rem 2rem;
 }
